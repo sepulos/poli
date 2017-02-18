@@ -1,0 +1,36 @@
+.gallery
+  position: relative
+  margin: 10px
+
+  &__title
+    font-size: 24px
+    font-weight: 700
+    padding: 10px
+    opacity: 0.6
+    border-top: 1px solid gray
+    width: 33.33%
+    text-align: left
+    +clearfix
+    +TAB_ONLY_800
+      width: 60%
+
+  &__boxItem
+    width: 25%
+    height: auto
+    float: left
+    padding: 5px
+
+    &:hover
+      opacity: 0.6
+
+  &__boxImg
+    width: 100%
+    height: 100%
+    border: 1px solid gray
+
+  &__boxText
+    text-align: center
+    font-size: 12px
+    padding: 10px 0
+    font-weight: 700
+

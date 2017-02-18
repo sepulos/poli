@@ -1,0 +1,28 @@
+@charset "UTF-8"
+
+//Global box-sizing: border-box
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: border-box
+
+//ipad/iphone fix stylowania
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"]
+  -webkit-appearance: none
+  border-radius: 0
+
+body
+  min-width: 320px
+
+.clearfix
+  +clearfix
+
+header
+  z-index: +2
+  position: relative
+
+footer

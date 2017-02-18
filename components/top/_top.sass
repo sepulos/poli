@@ -1,0 +1,30 @@
+.top
+  height: 130px
+  +TAB_ONLY_800
+    height: auto
+
+  &__logo
+    width: 120px
+    height: 130px
+    display: block
+    float: left
+
+  &__about
+    width: calc(100% - 120px)
+    margin-left: 120px
+    padding: 70px 10px 0
+    height: 100%
+    +TAB_ONLY_800
+      padding: 30px 10px
+    +PHONE_ONLY_600
+      padding: 10px
+
+  &__left
+    float: left
+    +TAB_ONLY_800
+      float: none
+
+  &__right
+    float: right
+    +TAB_ONLY_800
+      float: left
